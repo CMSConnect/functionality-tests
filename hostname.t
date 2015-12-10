@@ -1,0 +1,3 @@
+Just show hostname
+-------------------
+  $ hostname
