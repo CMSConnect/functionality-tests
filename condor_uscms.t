@@ -9,6 +9,8 @@ Submit it to T2/T3 US Sites
 
   $ echo -e ' \n queue' >> submit_file
 
+  $ export CONDOR_CMS_DASHBOARD="False"
+
 Copy some extra utilities to the unit test directory
 ----------------------------------------------------
   $ cp "${TESTDIR}/run_and_wait.sh" .
