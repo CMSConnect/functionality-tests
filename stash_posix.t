@@ -42,7 +42,7 @@ List files
 
 Clean up
 --------
-  $ rm /home/jenkinsstash/posix_cms/test
+  $ rm /home/jenkins/stash/posix_cms/test
   $ ls /home/jenkins/stash/posix_cms/test
   ls: cannot access /home/* (glob)
   [2]
