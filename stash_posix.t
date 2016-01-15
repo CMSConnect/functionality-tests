@@ -46,7 +46,7 @@ Clean up
   $ ls /home/jenkins/stash/posix_cms/test
   ls: cannot access /home/* (glob)
   [2]
-  $ rmdir ~/stash/posix_cms
-  $ ls ~/stash/posix_cms
+  $ rmdir /home/jenkins/stash/posix_cms
+  $ ls /home/jenkins/stash/posix_cms
   ls: cannot access /home/* (glob)
   [2]
