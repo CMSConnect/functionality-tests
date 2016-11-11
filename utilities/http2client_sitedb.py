@@ -22,7 +22,7 @@ def request(sitedb_url, query):
     # Make requests to SiteDB only using httplib2
 
     # First, locate CMS proxy
-    if 'X509_USER_CERT' in os.environ:
+    if 'X509_USER_PROXY' in os.environ:
         cert = os.environ['X509_USER_PROXY']
         key = cert
     elif os.path.exists('/tmp/x509up_u' + str(os.getuid())):
