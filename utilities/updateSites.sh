@@ -24,7 +24,10 @@ eval `scram runtime -sh` > /dev/null 2>&1
 
 # Now, setup CRAB so that we can get WMCore
 # To do: Build WMCore so I don't need CRAB?
-source /cvmfs/cms.cern.ch/crab3/crab.sh
+source /cvmfs/cms.cern.ch/crab/CRAB_2_11_1_patch1/crab.sh
+# CRAB3 is currently having issues with its built WMCore 
+# (httplib2 dependency was removed but PR to remove dependency from code was not pulled)
+#source /cvmfs/cms.cern.ch/crab3/crab.sh
 
 cd "$mypath"
 # Call my resources
