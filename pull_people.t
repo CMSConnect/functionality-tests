@@ -10,4 +10,4 @@ Copy some extra utilities to the u
 Run the unit test
 -----------------
   $ ./http2client_sitedb.py -o /etc/ciconnect/people.list
-  All done.
+  All Done.
