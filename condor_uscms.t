@@ -5,7 +5,7 @@ Submit it to T2/T3 US Sites
 
   $ echo -e ' universe = vanilla \n output=job.output \n error=job.error \n log=job.log \n executable = /bin/echo \n arguments = hello world' > submit_file
 
-  $ echo -e ' \n +ProjectName="cms-org-nd"' >> submit_file
+  $ echo -e ' \n +ProjectName="cms.org.nd"' >> submit_file
 
   $ echo -e ' \n queue' >> submit_file
 
