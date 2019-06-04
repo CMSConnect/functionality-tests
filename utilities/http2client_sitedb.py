@@ -75,6 +75,8 @@ if __name__ == "__main__":
     people = unflattenJSON(json_content)
 
     # Dump to a file
-    json.dump(people, f)
+    if people:
+        json.dump(people, f)
+    
     #f.write(str(people))
     print "All Done."
