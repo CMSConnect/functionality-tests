@@ -5,9 +5,9 @@ Setup environment
 
 Copy some extra utilities to the u
 ----------------------------------------------------
-  $ cp "${TESTDIR}/utilities/http2client_sitedb.py" .
+  $ cp "${TESTDIR}/utilities/http2client_cric.py" .
 
 Run the unit test
 -----------------
-  $ ./http2client_sitedb.py -o /etc/ciconnect/people.list
+  $ ./http2client_cric.py -o /etc/ciconnect/people.list
   All Done.
