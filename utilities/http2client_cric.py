@@ -46,8 +46,8 @@ def request(sitedb_url, query):
 
     # Make request
     resp, content = h.request('{0}{1}'.format(sitedb_url, query), method=method, headers=headers)
-    # print resp
-    # print content
+    # print(resp)
+    # print(content)
     return resp, content
 
 if __name__ == "__main__":
@@ -80,4 +80,4 @@ if __name__ == "__main__":
         json.dump(people, f)
     
     #f.write(str(people))
-    print "All Done."
+    print("All Done.")
